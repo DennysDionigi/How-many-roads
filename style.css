@@ -5,13 +5,15 @@ body {
     margin:0;
     font-family:sans-serif;
     color:#FFF;
+	-webkit-overflow-scrolling: touch;
 }
 section {
     display:flex;
   place-content:center center;
     align-items:center;
     justify-content: center;
-	height: 100vh;
+	height: 100%;
+	min-height:100vh;
 }
 .metro-1 {
   background:#423E3B;  
